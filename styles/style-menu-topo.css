@@ -30,28 +30,28 @@ header {
     border-bottom: solid 2px #FEAA00 !important;
 }
 
-.menu-dropdown {
+.menuDropdown {
     background-color: #efefef;
 }
 
-.menu-dropdown a {
+.menuDropdown a {
     color: black !important;
 }
 
-.menu-dropdown a:hover {
+.menuDropdown a:hover {
     color: #FEAA00 !important;
     background-color: #fffffffa !important;
 }
 
-.ultimo-menu-dropdown{
+.ultimo-menuDropdown{
     margin-inline: -200px !important;
 }
 
-.ultimo-menu-dropdown a{
+.ultimo-menuDropdown a{
     color: black !important;
 }
 
-.ultimo-menu-dropdown a:hover{
+.ultimo-menuDropdown a:hover{
     color: #FEAA00 !important;
     background-color: #fffffffa !important;
 }
@@ -75,10 +75,10 @@ header {
     .itensMenu{
         margin-inline: 38px !important;
     }
-    .menu-dropdown a {
+    .menuDropdown a {
         font-size: 13px !important;
     }
-    .ultimo-menu-dropdown a{
+    .ultimo-menuDropdown a{
         font-size: 13px !important;
     }
 }
@@ -93,10 +93,10 @@ header {
     .itensMenu{
         margin-inline: 38px !important;
     }
-    .menu-dropdown a {
+    .menuDropdown a {
         font-size: 13px !important;
     }
-    .ultimo-menu-dropdown a{
+    .ultimo-menuDropdown a{
         font-size: 13px !important;
     }
 }
@@ -112,10 +112,10 @@ header {
         margin-left: 120px;
         font-size: 15px !important;
     }
-    .menu-dropdown a {
+    .menuDropdown a {
         font-size: 13px !important;
     }
-    .ultimo-menu-dropdown a{
+    .ultimo-menuDropdown a{
         font-size: 13px !important;
     }
 }
@@ -131,10 +131,10 @@ header {
     .itensMenu{
         margin-inline: -20px !important;
     }
-    .menu-dropdown a {
+    .menuDropdown a {
         font-size: 12px !important;
     }
-    .ultimo-menu-dropdown a{
+    .ultimo-menuDropdown a{
         font-size: 12px !important;
     }
 }
@@ -147,10 +147,10 @@ header {
     .logo-marca {
         margin-left: 20px;
     }
-    .menu-dropdown a {
+    .menuDropdown a {
         font-size: 12px !important;
     }
-    .ultimo-menu-dropdown a{
+    .ultimo-menuDropdown a{
         font-size: 12px !important;
     }
     .conteudo-central-mobile{
