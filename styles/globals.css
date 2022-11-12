@@ -6,9 +6,17 @@
 
 html,
 body {
-  background-color: #efefef;
+  background-color: var(--gray);
   max-width: 100%;
   overflow-x: hidden;
+}
+
+:root{
+  --black: #000000;
+  --orange: #ff6700;
+  --white: #ffffff;
+  --red: #dd0808;
+  --gray: #EFEFEF;
 }
 
 body, input, textarea, select, button{

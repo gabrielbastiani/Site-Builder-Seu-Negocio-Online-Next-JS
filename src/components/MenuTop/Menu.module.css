@@ -1,0 +1,159 @@
+.headerTop {
+    z-index: 999;
+    position: fixed;
+    box-shadow: 0px 11px 10px 0px rgb(0 0 0 / 50%);
+    background-color: var(--black);
+    display: flex;
+    width: 100%;
+    height: 6rem;
+    margin: 0 auto;
+    padding: 0 2rem;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.iconMobile {
+    display: none;
+}
+
+.menuNavMobile {
+    display: none;
+}
+
+.menu {
+    display: flex;
+    list-style: none;
+    margin-right: 180px;
+}
+
+.menu li {
+    position: relative;
+}
+
+.menu li a {
+    color: var(--white);
+    text-decoration: none;
+    padding: 5px 10px;
+    display: block;
+    background-color: var(--black);
+}
+
+.menu li a:hover {
+    color: var(--orange);
+}
+
+.menu li ul {
+    position: absolute;
+    top: 25px;
+    left: 0;
+    background-color: var(--white);
+    display: none;
+}
+
+.menu li:hover ul,
+.menu li.over ul {
+    display: block;
+}
+
+.menu li ul li {
+    display: block;
+    width: 300px;
+}
+
+.drpdown {
+    text-align: center;
+}
+
+.drpdown li a {
+    padding: 20px;
+}
+
+.logo {
+    display: flex;
+    margin-left: 100px;
+}
+
+@media (max-width: 1177px) {
+    .menu {
+        margin-right: 100px;
+    }
+
+    .logo {
+        margin-left: 60px;
+    }
+}
+
+@media (max-width: 1058px) {
+    .menu {
+        margin-right: 50px;
+    }
+
+    .logo {
+        margin-left: 20px;
+    }
+}
+
+@media (max-width: 968px) {
+    .iconMobile {
+        display: block;
+    }
+
+    .menu {
+        display: none;
+    }
+
+    .menuNavMobile {
+        display: block;
+        z-index: 99;
+    }
+
+    .menuMobile {
+        display: flex;
+        background-color: var(--black);
+        padding: 20px;
+        position: relative;
+        flex-direction: column !important;
+        top: 230px;
+    }
+
+    .menuMobile a {
+        text-decoration: none;
+        color: var(--white);
+        padding: 10px;
+    }
+
+    .menuMobile li a:hover {
+        color: var(--orange);
+    }
+    
+    .menuMobile li ul {
+        position: absolute;
+        top: 25px;
+        left: 0;
+        background-color: var(--black);
+        display: none;
+    }
+
+    .menuMobile li{
+        padding: 20px;
+        text-align: center;
+    }
+    
+    .menuMobile li:hover ul,
+    .menuMobile li.over ul {
+        display: block;
+        z-index: 999;
+    }
+    
+    .menuMobile li ul li {
+        display: block;
+        width: 200px;
+    }
+
+}
+
+@media (max-width: 548px){
+    .menuMobile{
+        right: 100px;
+    }
+}
