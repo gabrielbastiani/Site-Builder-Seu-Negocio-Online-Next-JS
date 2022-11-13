@@ -14,11 +14,8 @@ export function Footer() {
     return (
         <footer className={styles.footerContainer}>
             <section className={styles.sectionContentFooter}>
-                <div className={styles.contentFooter}>
+                <div className={styles.contentFooterMenu}>
                     <h2>Menu</h2>
-                    <hr />
-                    <br />
-                    <br />
                     <div className={styles.menuNavMobile}>
                         <nav>
                             <ul className={styles.menuMobile}>
@@ -46,68 +43,52 @@ export function Footer() {
                                     </ul>
                                 </li>
                                 <li><a href="https://blog.builderseunegocioonline.com.br">Blog</a></li>
+                                <li><a href="/politicasDePrivacidade">Politicas de Privacidade</a></li>
+                                <li><a href="/contato">Contato</a></li>
+                                <li><a href="/sobre">Sobre</a></li>
+                                <li><a href="https://builderseunegocioonline.com.br/server-sitemap.xml">Site Map</a></li>
                             </ul>
                         </nav>
-                    </div>
-         
-                    <br />
-                    <br />
-                    <br />
-                    <br />
-                    <br />
-                    <div className={styles.contactsFooter}>
-                        <div className={styles.containerContacts}>
-                            <span><AiFillPhone color='var(--orange)' size={38} /></span>
-                            <Link href="https://api.whatsapp.com/send?phone=5554996860104" target="_blank"><p> (54) 99686-0104</p></Link>
-                        </div>
-                        <div className={styles.containerContacts}>
-                            <span><GrMail color='var(--orange)' size={38} /></span>
-                            <Link href="mailto:contato@builderseunegocioonline.com.br"><p> contato@builderseunegocioonline.com.br</p></Link>
-                        </div>
-                        <div className={styles.containerContacts}>
-                            <span><FaMapMarker color='var(--orange)' size={38} /></span>
-                            <p>Rua José Soares de Oliveira 2417 Caxias do Sul-RS CEP: 95034-100</p>
-                        </div>
                     </div>
                 </div>
                 <div className={styles.contentFooter}>
                     <h2>Blog</h2>
-                    <hr />
-                    <br />
-
+                    <Link href="https://blog.builderseunegocioonline.com.br" target="_blank">
+                        <Image className={styles.blog} src="/blogBuilderSeuNegocioOnline.png" width={120} height={160} alt="blog" />
+                    </Link>
+                    <p>Visite o Blog da Builder Seu Negócio Online para ver conteúdos incríveis!!!</p>
+                    <Link href="https://blog.builderseunegocioonline.com.br" target="_blank">
+                        <button>Blog</button>
+                    </Link>
                 </div>
                 <div className={styles.contentFooter}>
                     <h2>Nosso Cartão</h2>
-                    <hr />
-                    <br />
-                    <br />
-                    
+                    <Link href="https://servidor.builderseunegocioonline.com.br:8256/down/FjG23wT2jj96" target="_blank">
+                        <Image className={styles.cartao} src="/cartaoDeVisitas.jpg" width={180} height={340} alt="cartao de visitas gabriel" />
+                    </Link>
                 </div>
-                <div className={styles.contentFooter}>
-                    <h2>Redes Sociais</h2>
-                    <hr />
-                    <br />
-                    <br />
+            </section>
+            <section className={styles.fimDoRodape}>
+                <div className={styles.redesSociais}>
+                    <h3>Redes Sociais</h3>
                     <Link href="https://www.facebook.com/builderseunegocioonline" target="_blank">
-                        <AiFillFacebook color='var(--orange)' size={45} />
+                        <Image className={styles.redes} src="/facebookBuilderSeuNegocioOnline.png" width={55} height={55} alt="facebook builder seu negocio online"/>
                     </Link>
                     <Link href="https://www.instagram.com/builderseunegocioonline" target="_blank">
-                        <AiFillInstagram color='var(--orange)' size={45} />
+                        <Image className={styles.redes} src="/instagranBuilderSeuNegocioOnline.png" width={55} height={55} alt="instagram builder seu negocio online"/>
                     </Link>
-                    <Link href="https://www.linkedin.com/in/gabriel-campos-de-bastiani" target="_blank">
-                        <AiFillLinkedin color='var(--orange)' size={45} />
+                    <Link href="https://builderseunegocioonline.com.br/canalnoyoutube" target="_blank">
+                        <Image className={styles.redes} src="/youtubeBuilderSeuNegocioOnline.png" width={55} height={55} alt="youtube builder seu negocio online"/>
                     </Link>
-                    <Link href="https://github.com/gabrielbastiani" target="_blank">
-                        <FaGithubSquare color='var(--orange)' size={45} />
+                    <Link href="https://br.pinterest.com/gabrielcbastiani" target="_blank">
+                        <Image className={styles.redes} src="/pinterestBuilderSeuNegocioOnline.png" width={55} height={55} alt="pintrest builder seu negocio online"/>
                     </Link>
-
-                    <br />
-                    <br />
-
-                    <h3>Entre em contato</h3>
-                    <hr />
-
+                    <Link href="https://api.whatsapp.com/send?phone=5554996860104" target="_blank">
+                        <Image className={styles.redes} src="/whatsappBuilderSeuNegocioOnline.png" width={55} height={55} alt="whatsapp builder seu negocio online"/>
+                    </Link>
                 </div>
+
+                <hr className={styles.divisor} />
             </section>
 
             <div className={styles.copyrightFooter}>

@@ -6,7 +6,7 @@
 }
 
 .footerContainer h2 {
-    margin-bottom: 3px;
+    margin-bottom: 50px;
     color: var(--white);
 }
 
@@ -15,28 +15,95 @@
     color: var(--white);
 }
 
-.footerContainer hr {
-    width: 25px;
-    height: 4px;
-    border: 0px;
-    background-color: var(--white);
-}
-
 .footerContainer p {
     color: var(--white);
+    line-height: 23px;
 }
 
 .sectionContentFooter {
     display: flex;
-    grid-gap: 90px;
+    justify-content: center;
+}
+
+.contentFooterMenu {
+    margin: 0 88px;
 }
 
 .contentFooter {
-    width: 310px;
+    margin: 0 20px;
+    width: 340px;
+    text-align: center;
 }
 
-.contentFooter svg {
+.blog {
+    padding-bottom: 30px;
+}
+
+.contentFooter button {
+    text-align: center;
+    align-items: center;
+    font-size: 16px;
+    font-weight: 700;
+    letter-spacing: 0.9px;
+    fill: var(--white);
+    color: var(--white);
+    background-color: var(--orange);
+    border-style: solid;
+    border-color: white;
+    border-width: 1px 1px 1px 1px;
+    border-radius: 30px 30px 30px 30px;
+    padding: 13px 13px 13px 13px;
     cursor: pointer;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+
+.cartao {
+    transition-duration: 0.5s;
+    border-style: solid;
+    border-radius: 500px 500px 500px 500px;
+    box-shadow: 0px 0px 10px 0px var(--white);
+    vertical-align: middle;
+}
+
+.cartao:hover {
+    transition-duration: 0.5s;
+    border-color: var(--orange);
+}
+
+.fimDoRodape {
+    text-align: center;
+}
+
+.redes {
+    padding: 4px;
+    border-radius: 50%;
+}
+
+.redes:hover {
+    border: 2px solid var(--orange);
+    border-radius: 50%;
+}
+
+.redesSociais{
+    text-align: center;
+}
+
+.redesSociais h3{
+    color: var(--white);
+    padding: 25px;
+}
+
+.divisor {
+    position: relative;
+    display: flex;
+    height: 1px;
+    align-items: center;
+    color: grey;
+    background-color: rgba(255, 255, 255, 0.25);
+    width: 100%;
+    margin-top: 40px;
+    margin-bottom: 20px;
 }
 
 .contentFooter ul {
@@ -49,27 +116,6 @@
     transition: color 0.7s;
     cursor: pointer;
     padding-bottom: 5px;
-}
-
-.contentFooter li:hover {
-    color: var(--orange);
-}
-
-.contentFooter a:hover {
-    color: var(--orange);
-    cursor: pointer;
-    display: flex;
-    color: var(--white);
-    text-decoration: none;
-    transition: color 0.7s;
-}
-
-.emptyList {
-    color: var(--orange);
-}
-
-.dateArticles {
-    color: var(--orange);
 }
 
 .containerContacts {
@@ -99,7 +145,6 @@
 .menuMobile {
     display: flex;
     background-color: var(--black);
-    padding: 20px;
     position: relative;
     flex-direction: column !important;
 }
@@ -123,8 +168,8 @@
 }
 
 .menuMobile li {
-    padding: 20px;
-    
+    padding: 8px;
+
 }
 
 .menuMobile li:hover ul,
