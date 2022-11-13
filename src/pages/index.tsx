@@ -2,6 +2,7 @@ import Head from 'next/head'
 import Image from 'next/image'
 import Link from 'next/link'
 import styles from '../../styles/Home.module.css'
+import { Footer } from '../components/Footer';
 import { MenuTop } from '../components/MenuTop';
 
 export default function Home() {
@@ -14,6 +15,27 @@ export default function Home() {
             </Head>
 
             <MenuTop />
+
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+
+            <Footer />
 
         </>
     )
