@@ -1,0 +1,47 @@
+.divisor{
+    margin-top: -100px;
+}
+
+.divisor h2{
+    text-align: center;
+    font-weight: 600;
+    color: var(--black);
+    font-size: 38px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.divisorUm {
+    position: relative;
+    display: flex;
+    height: 3px;
+    color: var(--black);
+    background-color: var(--black);
+    width: 40%;
+    margin-left: 30%;
+    margin-right: 30%;
+}
+
+.divisorDois {
+    position: relative;
+    display: flex;
+    height: 4px;
+    align-items: center;
+    color: black;
+    background-color: black;
+    width: 53%;
+    margin-left: 23%;
+    margin-right: 23%;
+}
+
+@media (max-width: 836px){
+    .divisor{
+        margin-top: -10px;
+    }
+}
+
+@media (max-width: 420px){
+    .divisor{
+        margin-top: 40px;
+    }
+}

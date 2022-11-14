@@ -1,9 +1,10 @@
 import Head from 'next/head'
-import Image from 'next/image'
-import Link from 'next/link'
-import styles from '../../styles/Home.module.css'
 import { Footer } from '../components/Footer';
 import { MenuTop } from '../components/MenuTop';
+import { SectionPrincipal } from '../components/SectionPrincipal';
+import { ServicoUm } from '../components/ServicoUm';
+import { TextoChamadaHome } from '../components/TextoChamadaHome';
+
 
 export default function Home() {
     return (
@@ -16,24 +17,11 @@ export default function Home() {
 
             <MenuTop />
 
-            <br />
-            <br />
-            <br />
-            <br />
-            <br />
-            <br />
-            <br />
-            <br />
-            <br />
-            <br />
-            <br />
-            <br />
-            <br />
-            <br />
-            <br />
-            <br />
-            <br />
-            <br />
+            <SectionPrincipal />
+
+            <TextoChamadaHome />
+
+            <ServicoUm />
 
             <Footer />
 

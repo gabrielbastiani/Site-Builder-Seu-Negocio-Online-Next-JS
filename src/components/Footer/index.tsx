@@ -1,10 +1,7 @@
-import React, { useState } from "react";
+import React from "react";
 import Image from "next/image";
 import Link from "next/link";
 import styles from './Footer.module.css'
-import { AiFillPhone, AiFillFacebook, AiFillInstagram, AiFillLinkedin } from 'react-icons/ai'
-import { GrMail } from 'react-icons/gr'
-import { FaMapMarker, FaGithubSquare } from 'react-icons/fa'
 
 
 export function Footer() {
@@ -19,7 +16,7 @@ export function Footer() {
                     <div className={styles.menuNavMobile}>
                         <nav>
                             <ul className={styles.menuMobile}>
-                                <li><a href="/">Inicio</a></li>
+                                <li><a href="https://builderseunegocioonline.com.br">Inicio</a></li>
                                 <li><a href="/projetosPersonalizados">Projetos Personalizados</a></li>
                                 <li><a href="#">Seu Website</a>
                                     <ul className={styles.drpdownMobile}>
@@ -72,27 +69,35 @@ export function Footer() {
                 <div className={styles.redesSociais}>
                     <h3>Redes Sociais</h3>
                     <Link href="https://www.facebook.com/builderseunegocioonline" target="_blank">
-                        <Image className={styles.redes} src="/facebookBuilderSeuNegocioOnline.png" width={55} height={55} alt="facebook builder seu negocio online"/>
+                        <Image className={styles.redes} src="/facebookBuilderSeuNegocioOnline.png" width={55} height={55} alt="facebook builder seu negocio online" />
                     </Link>
                     <Link href="https://www.instagram.com/builderseunegocioonline" target="_blank">
-                        <Image className={styles.redes} src="/instagranBuilderSeuNegocioOnline.png" width={55} height={55} alt="instagram builder seu negocio online"/>
+                        <Image className={styles.redes} src="/instagranBuilderSeuNegocioOnline.png" width={55} height={55} alt="instagram builder seu negocio online" />
                     </Link>
                     <Link href="https://builderseunegocioonline.com.br/canalnoyoutube" target="_blank">
-                        <Image className={styles.redes} src="/youtubeBuilderSeuNegocioOnline.png" width={55} height={55} alt="youtube builder seu negocio online"/>
+                        <Image className={styles.redes} src="/youtubeBuilderSeuNegocioOnline.png" width={55} height={55} alt="youtube builder seu negocio online" />
                     </Link>
                     <Link href="https://br.pinterest.com/gabrielcbastiani" target="_blank">
-                        <Image className={styles.redes} src="/pinterestBuilderSeuNegocioOnline.png" width={55} height={55} alt="pintrest builder seu negocio online"/>
+                        <Image className={styles.redes} src="/pinterestBuilderSeuNegocioOnline.png" width={55} height={55} alt="pintrest builder seu negocio online" />
                     </Link>
                     <Link href="https://api.whatsapp.com/send?phone=5554996860104" target="_blank">
-                        <Image className={styles.redes} src="/whatsappBuilderSeuNegocioOnline.png" width={55} height={55} alt="whatsapp builder seu negocio online"/>
+                        <Image className={styles.redes} src="/whatsappBuilderSeuNegocioOnline.png" width={55} height={55} alt="whatsapp builder seu negocio online" />
                     </Link>
                 </div>
-
-                <hr className={styles.divisor} />
+                <hr />
             </section>
 
-            <div className={styles.copyrightFooter}>
-                <h5>Copyright {anoAtual} © Todos os direitos reservados. Desenvolvido por Gabriel Campos de Bastiani.</h5>
+            <div className={styles.footer}>
+                <div className={styles.logo}>
+                    <Link href="/">
+                        <Image className={styles.imgLogo} src="/LogoBuilderWhite.png" width={170} height={50} alt="logomarca" />
+                    </Link>
+                    <p>Builder Seu Negócio Online<br /> Rua José Soares de Oliveira<br /> Número: 2417<br /> Caxias do Sul-RS<br /> CEP: 95034-100</p>
+                </div>
+
+                <div className={styles.copyrightFooter}>
+                    <h5>Copyright {anoAtual} © Todos os direitos reservados. Desenvolvido por Gabriel Campos de Bastiani.</h5>
+                </div>
             </div>
 
         </footer>

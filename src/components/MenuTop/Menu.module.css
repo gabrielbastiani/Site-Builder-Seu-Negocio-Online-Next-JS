@@ -162,5 +162,13 @@
 @media (max-width: 548px){
     .menuMobile{
         right: 100px;
+        width: 300px;
+    }
+}
+
+@media (max-width: 428px){
+    .menuMobile{
+        right: 170px;
+        width: 300px;
     }
 }

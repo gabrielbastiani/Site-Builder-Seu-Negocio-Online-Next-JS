@@ -22,7 +22,7 @@ export function MenuTop() {
             </div>
             <nav>
                 <ul className={styles.menu}>
-                    <li><a href="/">Inicio</a></li>
+                    <li><a href="https://builderseunegocioonline.com.br">Inicio</a></li>
                     <li><a href="/projetosPersonalizados">Projetos Personalizados</a></li>
                     <li><a href="#">Seu Website</a>
                         <ul className={styles.drpdown}>
@@ -56,7 +56,7 @@ export function MenuTop() {
             {showMenu ? <div className={styles.menuNavMobile}>
                 <nav>
                     <ul className={styles.menuMobile}>
-                        <li><a href="/">Inicio</a></li>
+                        <li><a href="https://builderseunegocioonline.com.br">Inicio</a></li>
                         <li><a href="/projetosPersonalizados">Projetos Personalizados</a></li>
                         <li><a href="#">Seu Website</a>
                             <ul className={styles.drpdownMobile}>
