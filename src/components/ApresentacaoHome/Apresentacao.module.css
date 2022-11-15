@@ -1,0 +1,105 @@
+section.apresentacaoPessoal {
+    position: relative;
+    background-color: #0000008f;
+    background-image: url('/backgroundHomeSiteWeb.png');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    padding-bottom: 80px;
+}
+
+.apresentacao{
+    margin-bottom: 45px;
+}
+
+.apresentacaoPessoal svg {
+    fill: rgba(0, 0, 0, 0.233);
+    width: 100%;
+    height: 262px;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.imagemGabriel {
+    text-align: center;
+    margin-bottom: -30px;
+}
+
+.textoApresentacaoTitulo {
+    background-color: transparent;
+    border: transparent;
+}
+
+.textoApresentacaoTitulo h1 {
+    text-align: center;
+    background-color: #FEAA00;
+    border-radius: 200px 200px 200px 200px;
+    box-shadow: 0px 0px 14px 4px var(--black);
+    color: var(--black);
+    font-size: 30px;
+    line-height: 22px;
+    font-weight: 900;
+    padding: 17px;
+    margin-inline: 400px;
+}
+
+.textoApresentacao {
+    text-align: center;
+    background-color: transparent;
+    border: transparent;
+}
+
+.textoApresentacao p {
+    background-color: #FEAA00;
+    border-radius: 35px 35px 35px 35px;
+    box-shadow: 0px 0px 10px 7px rgb(0 0 0 / 50%);
+    color: var(--black);
+    font-size: 15px;
+    line-height: 22px;
+    font-weight: 600;
+    padding: 18px;
+    margin-inline: 200px;
+}
+
+@media (max-width: 1198px) {
+    .textoApresentacaoTitulo h1 {
+        margin-inline: 200px;
+    }
+    .textoApresentacao p {
+        margin-inline: 100px;
+    }
+}
+
+@media (max-width: 768px) {
+    .textoApresentacaoTitulo h1 {
+        margin-inline: 100px;
+    }
+    .textoApresentacao p {
+        margin-inline: 50px;
+    }
+}
+
+@media (max-width: 620px) {
+    .imagemGabriel img {
+        width: 80%;
+    }
+}
+
+@media (max-width: 450px) {
+    .textoApresentacaoTitulo h1 {
+        margin-inline: 50px;
+    }
+    .textoApresentacao p {
+        margin-inline: 20px;
+    }
+}
+
+@media (max-width: 343px) {
+    .textoApresentacaoTitulo h1 {
+        margin-inline: 12px;
+    }
+    .textoApresentacao p {
+        margin-inline: -10px;
+    }
+}

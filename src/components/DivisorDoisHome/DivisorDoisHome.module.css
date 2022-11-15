@@ -1,0 +1,70 @@
+.ondaDivisor1 svg {
+    fill: #efefef;
+    width: calc(100% + 1.3px);
+    height: 55px;
+    transform: translateX(-50%);
+    display: block;
+    position: relative;
+    left: 50%;
+}
+
+.fimOndaDivisor1 svg {
+    fill: #efefef;
+    transform-origin: center;
+    transform: rotateY(0deg);
+    width: calc(100% + 1.3px);
+    height: 55px;
+    transform: translateX(-50%);
+    display: block;
+    position: relative;
+    left: 50%;
+}
+
+section.divisor1 {
+    background-image: url('/fundoDivisor2.png');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-color: #0C0C0B99;
+    text-align: center;
+}
+
+section.divisor1 .fimOndaDivisor1 {
+    transform: rotate(180deg);
+}
+
+section.divisor1 .tituloServico1 {
+    text-align: center;
+    color: var(--white);
+    font-size: 26px;
+    font-weight: 600;
+    letter-spacing: 4.3px;
+    text-shadow: 0px 0px 10px var(--black);
+    padding: 18px;
+}
+
+section.divisor1 .botao1 {
+    text-align: center;
+}
+
+section.divisor1 .botao1 button {
+    letter-spacing: 0.6px;
+    fill: var(--white);
+    color: var(--white);
+    background-color: rgba(254, 170, 0, 0.35);
+    border-style: solid;
+    border-width: 2px 2px 2px 2px;
+    border-color: var(--white);
+    border-radius: 40px 40px 40px 40px;
+    box-shadow: 0px 0px 18px 11px rgb(0 0 0 / 50%);
+    font-size: 16px;
+    padding: 15px 30px;
+    cursor: pointer;
+}
+
+@media (max-width: 690px) {
+    section.divisor1 {
+        margin-top: -60px;
+        margin-bottom: -60px;
+    }
+}
