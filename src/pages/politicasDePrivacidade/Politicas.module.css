@@ -1,0 +1,100 @@
+.sectionContainer {
+    margin: 105px;
+    padding: 0 85px;
+    margin-top: 400px;
+}
+
+.sectionContainer h1 {
+    box-sizing: border-box;
+    margin: 0px;
+    line-height: 1.2;
+    font-size: 28px;
+    letter-spacing: -0.05em;
+    color: var(--black);
+    padding-bottom: 20px;
+}
+
+.sectionContainer h2 {
+    box-sizing: border-box;
+    margin: 0px;
+    line-height: 1.2;
+    font-size: 20px;
+    letter-spacing: -0.05em;
+    color: var(--black);
+    padding-bottom: 20px;
+}
+
+.sectionContainer h3 {
+    box-sizing: border-box;
+    margin: 0px 0px 20px;
+    line-height: 1.2;
+    font-size: 16px;
+    letter-spacing: -0.05em;
+    color: var(--black);
+}
+
+.sectionContainer p {
+    box-sizing: border-box;
+    margin-top: 0px;
+    margin-bottom: 1rem;
+    font-size: 16px;
+    color: var(--black);
+}
+
+.link {
+    box-sizing: border-box;
+    color: var(--orange);
+    text-decoration-line: none;
+    background-color: transparent;
+}
+
+.sectionContainer ul {
+    font-size: 16px;
+    box-sizing: border-box;
+    margin-top: 0px;
+    margin-bottom: 1rem;
+    color: var(--black);
+}
+
+.sectionContainer li {
+    box-sizing: border-box;
+}
+
+.sectionContainer br {
+    box-sizing: border-box;
+}
+
+@media (max-width: 1400px){
+    .sectionContainer {
+        margin-top: 300px;
+    }
+}
+
+@media (max-width: 1290px){
+    .sectionContainer {
+        margin-top: 250px;
+    }
+}
+
+@media (max-width: 1028px){
+    .sectionContainer {
+        padding: 0 65px;
+        margin-top: 350px;
+    }
+}
+
+@media (max-width: 820px) {
+    .sectionContainer {
+        margin: 30px;
+        padding: 0 25px;
+        margin-top: 350px;
+    }
+}
+
+@media (max-width: 518px) {
+    .sectionContainer {
+        margin: 20px;
+        padding: 0 15px;
+        margin-top: 200px;
+    }
+}

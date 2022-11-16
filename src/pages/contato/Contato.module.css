@@ -1,0 +1,111 @@
+.linhaServicoInvertida1 {
+    padding: 120px;
+    display: grid;
+    grid-template-columns: 600px 650px;
+    justify-content: center;
+    margin-top: 300px;
+}
+
+.box2ImagemInvertida1 {
+    box-shadow: 37px -3px 30px 2px rgb(0 0 0 / 50%);
+    border-radius: 45px 45px 45px 45px;
+    margin: 25px;
+}
+
+.imagemInvertida1 {
+    background-color: transparent;
+    border: transparent;
+    text-align: center;
+    padding: 40px;
+}
+
+.imagemServico1{
+    cursor: pointer;
+    margin-top: 25px;
+}
+
+.imagemCartao{
+    text-align: center;
+    padding: 40px;
+    vertical-align: middle;
+}
+
+.imagemCartao img{
+    text-align: center;
+    padding: 40px;
+    transition-duration: 0.5s;
+    border-style: solid;
+    border-radius: 500px 500px 500px 500px;
+    box-shadow: 0px 0px 10px 0px var(--white);
+    vertical-align: middle;
+    cursor: pointer;
+}
+
+.imagemServicocartao:hover {
+    transition-duration: 0.5s;
+    border-color: var(--orange);
+}
+
+.imagemInvertida1 img {
+    vertical-align: middle;
+}
+
+.box1ConteudoInvertida1 {
+    box-shadow: -57px 0px 36px 18px rgb(0 0 0 / 50%);
+    border-radius: 45px 0px 0px 45px;
+}
+
+.conteudoInvertida1 {
+    background-color: transparent;
+    border: transparent;
+    text-align: center;
+    margin: 60px;
+}
+
+.box1ConteudoInvertida1 h2 {
+    font-weight: bold;
+    text-align: center;
+    color: var(--black);
+    font-size: 32px;
+    padding-bottom: 20px;
+}
+
+.box2ImagemInvertida1 h2{
+    font-weight: bold;
+    text-align: center;
+    color: var(--black);
+    font-size: 32px;
+    padding-bottom: 20px;
+}
+
+@media (max-width: 1260px){
+    .linhaServicoInvertida1 {
+        grid-template-columns: 470px 470px;
+    }
+}
+
+@media (max-width: 980px){
+    .linhaServicoInvertida1 {
+        grid-template-columns: 650px;
+    }
+}
+
+@media (max-width: 675px){
+    .linhaServicoInvertida1 {
+        grid-template-columns: 500px;
+    }
+}
+
+@media (max-width: 520px){
+    .linhaServicoInvertida1 {
+        grid-template-columns: 360px;
+    }
+
+    .imagemServico1{
+        margin-left: -80px;
+    }
+
+    .linhaServicoInvertida1{
+        margin-top: 100px;
+    }
+}

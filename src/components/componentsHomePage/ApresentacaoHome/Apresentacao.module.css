@@ -41,7 +41,7 @@ section.apresentacaoPessoal {
     line-height: 22px;
     font-weight: 900;
     padding: 17px;
-    margin-inline: 400px;
+    margin-inline: 600px;
 }
 
 .textoApresentacao {
@@ -59,30 +59,49 @@ section.apresentacaoPessoal {
     line-height: 22px;
     font-weight: 600;
     padding: 18px;
-    margin-inline: 200px;
+    margin-inline: 350px;
 }
 
-@media (max-width: 1198px) {
+@media (max-width: 1372px) {
     .textoApresentacaoTitulo h1 {
+        margin-inline: 400px;
+    }
+    .textoApresentacao p {
         margin-inline: 200px;
+    }
+}
+
+@media (max-width: 985px) {
+    .textoApresentacaoTitulo h1 {
+        margin-inline: 300px;
     }
     .textoApresentacao p {
         margin-inline: 100px;
     }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 760px) {
     .textoApresentacaoTitulo h1 {
-        margin-inline: 100px;
+        margin-inline: 200px;
     }
     .textoApresentacao p {
         margin-inline: 50px;
     }
 }
 
-@media (max-width: 620px) {
-    .imagemGabriel img {
-        width: 80%;
+@media (max-width: 566px) {
+    .textoApresentacaoTitulo h1 {
+        margin-inline: 70px;
+    }
+    .textoApresentacao p {
+        margin-inline: 40px;
+    }
+}
+
+@media (max-width: 600px){
+    .imagemGabriel img{
+        width: 380px;
+        height: 320px;
     }
 }
 

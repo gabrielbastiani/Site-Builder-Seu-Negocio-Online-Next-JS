@@ -17,7 +17,7 @@ export function MenuTop() {
         <header className={styles.headerTop}>
             <div className={styles.logo}>
                 <Link href="/">
-                    <Image className={styles.imgLogo} src="/LogoBuilderWhite.png" width={170} height={50} alt="logomarca" />
+                    <Image className={styles.imgLogo} src="/LogoBuilderWhite.png" width={170} height={50} quality={100} alt="logomarca" />
                 </Link>
             </div>
             <nav>

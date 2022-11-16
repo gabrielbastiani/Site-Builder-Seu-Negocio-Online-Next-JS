@@ -1,0 +1,58 @@
+.perguntasAlvos {
+    margin-top: 18%;
+    text-align: center;
+}
+
+.perguntasAlvos h2 {
+    color: var(--black);
+    font-size: 38px;
+    margin-bottom: 35px;
+}
+
+.linha {
+    display: inline-flex;
+    text-align: center;
+    align-items: center;
+}
+
+.alvoPergunta p {
+    color: var(--black);
+    font-weight: 500;
+    font-size: 25px;
+}
+
+.boxPerguntaAlvo svg {
+    color: green;
+    font-weight: 900;
+    font-size: 70px;
+    padding: 15px;
+}
+
+.resposta {
+    padding-top: 10px;
+}
+
+.resposta p {
+    color: green;
+    font-size: 23px;
+    font-weight: 600;
+}
+
+.perguntasAlvos h3 {
+    text-align: center;
+    color: var(--black);
+    font-size: 32px;
+    margin-top: 30px;
+}
+
+@media (max-width: 1026px){
+    .perguntasAlvos {
+        margin-top: 25%;
+    }
+}
+
+@media (max-width: 695px){
+    .perguntasAlvos {
+        padding: 22px;
+    }
+}

@@ -1,17 +1,17 @@
 import Head from 'next/head'
-import { Apresentacao } from '../components/ApresentacaoHome';
-import { DivisorDoisHome } from '../components/DivisorDoisHome';
-import { DivisorQuartoHome } from '../components/DivisorQuartoHome';
-import { DivisorTresHome } from '../components/DivisorTresHome';
-import { DivisorUmHome } from '../components/DivisorUmHome';
+import { Apresentacao } from '../components/componentsHomePage/ApresentacaoHome';
+import { DivisorDoisHome } from '../components/componentsHomePage/DivisorDoisHome';
+import { DivisorQuartoHome } from '../components/componentsHomePage/DivisorQuartoHome';
+import { DivisorTresHome } from '../components/componentsHomePage/DivisorTresHome';
+import { DivisorUmHome } from '../components/componentsHomePage/DivisorUmHome';
 import { Footer } from '../components/Footer';
 import { MenuTop } from '../components/MenuTop';
-import { SectionPrincipal } from '../components/SectionPrincipal';
-import { ServicoDois } from '../components/ServicoDois';
-import { ServicoQuarto } from '../components/ServicoQuarto';
-import { ServicoTres } from '../components/ServicoTres';
-import { ServicoUm } from '../components/ServicoUm';
-import { TextoChamadaHome } from '../components/TextoChamadaHome';
+import { SectionPrincipal } from '../components/componentsHomePage/SectionPrincipal';
+import { ServicoDois } from '../components/componentsHomePage/ServicoDois';
+import { ServicoQuarto } from '../components/componentsHomePage/ServicoQuarto';
+import { ServicoTres } from '../components/componentsHomePage/ServicoTres';
+import { ServicoUm } from '../components/componentsHomePage/ServicoUm';
+import { TextoChamadaHome } from '../components/componentsHomePage/TextoChamadaHome';
 
 
 export default function Home() {

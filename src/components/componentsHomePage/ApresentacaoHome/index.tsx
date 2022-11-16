@@ -19,7 +19,7 @@ export function Apresentacao() {
                 </path>
             </svg>
             <div className={styles.imagemGabriel}>
-                <Image src="/gabrielDeBastianiBuilderSeuNegocioOnline.png" width={560} height={445} alt="apresentacao gabriel builder" />
+                <Image src="/gabrielDeBastianiBuilderSeuNegocioOnline.png" width={560} height={445} quality={100} alt="apresentacao gabriel builder" />
             </div>
 
             <div className={styles.secaoApresentacao}>
@@ -33,8 +33,8 @@ export function Apresentacao() {
                 <div className={styles.apresentacao}>
                     <div className={styles.boxTexto}>
                         <div className={styles.textoApresentacao}>
-                            <p>Me chamo Gabriel Campos de Bastiani, formado em Gestão Comercial pelo centro
-                                universitário UNIFTEC da cidade de Caxias do Sul-RS;
+                            <p>Meu nome é Gabriel Campos de Bastiani, e sou graduado em Gestão Comercial pelo centro
+                                universitário UNIFTEC, MBA em E-commerce e negócios digitais e desenvolvedor WEB Jacascript FullStack.;
                                 Junto ao conhecimento obtido na faculdade, e principalmente pelo conhecimento de longa
                                 data
                                 em Web
