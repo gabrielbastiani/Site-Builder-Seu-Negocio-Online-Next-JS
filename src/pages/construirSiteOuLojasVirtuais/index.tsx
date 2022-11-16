@@ -9,6 +9,8 @@ import { SectionPrincipalSites } from "../../components/componentsPageSitesLoja/
 import styles from './ConstruirSiteOuLojasVirtuais.module.css'
 import { DivisorDoisSites } from "../../components/componentsPageSitesLoja/DivisorDoisSites";
 import { FerramentasOferecidasDois } from "../../components/componentsPageSitesLoja/FerramentasOferecidasDois";
+import { DivisorTresSites } from "../../components/componentsPageSitesLoja/DivisorTresSites";
+import { Depoimento } from "../../components/componentsPageSitesLoja/Depoimento";
 
 
 export default function ConstruirSiteOuLojasVirtuais(){
@@ -31,6 +33,10 @@ export default function ConstruirSiteOuLojasVirtuais(){
             <DivisorDoisSites />
 
             <FerramentasOferecidasDois />
+
+            <DivisorTresSites />
+
+            <Depoimento />
 
             <Footer />
         </>
