@@ -1,27 +1,45 @@
 import Image from "next/image";
-import React from "react";
+import React, { useState } from "react";
 import styles from './ComoCriarSeuSite.module.css'
 
 
 export function ComoCriarSeuSite() {
+
+    const [showQuestion1, setShowQuestion1] = useState(false);
+    const [showQuestion2, setShowQuestion2] = useState(false);
+    const [showQuestion3, setShowQuestion3] = useState(false);
+
+    const showOrHide1 = () => {
+        setShowQuestion1(!showQuestion1);
+    }
+
+    const showOrHide2 = () => {
+        setShowQuestion2(!showQuestion2);
+    }
+
+    const showOrHide3 = () => {
+        setShowQuestion3(!showQuestion3);
+    }
+
+
     return (
         <section className={styles.comoCriamos}>
             <div className={styles.linhaConteudo}>
                 <div className={styles.colunaConteudo}>
                     <div className={styles.etapa}>
-                        <a href='#titulo'>ETAPA 1 - CADASTRO E CONTRATO</a>
-                        <div className={styles.boxEtapa}>
+                        <a href='#titulo' onClick={showOrHide1}>ETAPA 1 - CADASTRO E CONTRATO</a>
+                        {showQuestion1 ? <div className={styles.boxEtapa}>
                             <p>Você vai precisar preencher um Briefing de site, que se encontra aqui. Vou entrar em
                                 contato com
                                 você por WhatsApp ou por telefonema, para alinhar os detalhes, e assim, formalizar um
                                 contrato
                                 de prestação de serviços para você, além das opções de pagamento.</p>
-                        </div>
+                        </div> : null}
                     </div>
 
                     <div className={styles.etapa}>
-                        <a href='#titulo'>ETAPA 2 - EXECUÇÃO DO SITE</a>
-                        <div className={styles.boxEtapa}>
+                        <a href='#titulo' onClick={showOrHide2}>ETAPA 2 - EXECUÇÃO DO SITE</a>
+                        {showQuestion2 ? <div className={styles.boxEtapa}>
                             <p>Vou fazer toda a estruturação visual do site e deixamos ele prontinho para você, porém
                                 todos os
                                 conteúdos devem ser fornecidos por você, como textos, álbuns de fotos, orçamento, dados
@@ -33,18 +51,18 @@ export function ComoCriarSeuSite() {
                                 instruções suficientes para que faça isso. É extremamente fácil manter o seu site
                                 atualizado.
                             </p>
-                        </div>
+                        </div> : null}
                     </div>
 
                     <div className={styles.etapa}>
-                        <a href='#titulo'>ETAPA 3 - SEU SITE FINALIZADO</a>
-                        <div className={styles.boxEtapa}>
+                        <a href='#titulo' onClick={showOrHide3}>ETAPA 3 - SEU SITE FINALIZADO</a>
+                        {showQuestion3 ? <div className={styles.boxEtapa}>
                             <p>Após sua aprovação seu site já estará no ar, podendo ser acessado por computadores,
                                 tablets ou
                                 celulares. E fique tranquilo, manteremos sempre contato para que assim que você precisar
                                 de
                                 ajuda, vou estar a sua disposição.</p>
-                        </div>
+                        </div> : null}
                     </div>
                 </div>
                 <div className={styles.imgDestaque}>

@@ -1,0 +1,159 @@
+.callToAction{
+    margin-top: 150px;
+}
+
+.chamada {
+    z-index: 999999 !important;
+    border: 4px solid var(--black);
+    background-color: #00000086;
+    box-shadow: 0px 0px 22px 22px rgb(0 0 0 / 50%);
+    padding: 20px;
+    margin-inline: 385px;
+    border-radius: 200px 200px 200px 200px;
+    margin-top: -100px;
+}
+
+.chamada h1 {
+    text-align: center;
+    color: var(--white);
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 1.5em;
+    letter-spacing: 3px;
+    text-shadow: 0px 0px 15px rgb(0 0 0 / 0%);
+}
+
+.descricoes h2 {
+    text-align: center;
+    color: var(--black);
+    font-size: 24px;
+    font-weight: 800;
+    text-decoration: underline;
+    letter-spacing: 1.0px;
+    padding-top: 80px;
+}
+
+.descricoes p {
+    text-align: center;
+    color: var(--black);
+    line-height: 1.5em;
+    font-size: 17px;
+    padding-inline: 200px;
+}
+
+.botao {
+    text-align: center;
+    padding: 60px;
+}
+
+.botao button {
+    text-align: center;
+    font-size: 27px;
+    font-weight: 900;
+    letter-spacing: 0.9px;
+    text-shadow: 0px 0px 10px var(--black);
+    fill: var(--white);
+    color: var(--white);
+    background-color: var(--red);
+    border-radius: 50px 50px 50px 50px;
+    box-shadow: 0px 0px 10px 0px var(--white);
+    padding: 20px 35px 20px 35px;
+    cursor: pointer;
+}
+
+.imagensFinal {
+    margin-top: 50px;
+    margin-inline: 120px;
+    display: flex;
+    justify-content: center;
+}
+
+.finalImagem{
+    padding: 50px;
+}
+
+.finalImagem2 {
+    border-style: solid;
+    border-color: rgba(0, 0, 0, 0.45);
+    border-radius: 50px 50px 50px 50px;
+    margin-top: 80px;
+}
+
+.divisorFundoUltimoBaixo {
+    z-index: -999 !important;
+    margin-top: -420px;
+}
+
+.divisorFundoUltimoBaixo svg {
+    z-index: -99999 !important;
+    width: calc(100% + 1.3px);
+    height: 500px;
+    display: block;
+    fill: #BFBCBC;
+    transform: rotate(180deg);
+}
+
+@media (max-width: 1008px){
+    .callToAction {
+        margin-bottom: 50px;
+    }
+    
+    .chamada{
+        margin-inline: 200px;
+    }
+
+    .chamada h1 {
+        font-size: 33px;
+    }
+
+    .divisorFundoUltimoBaixo{
+        display: none;
+    }
+
+    .finalImagem img{
+        width: 180px;
+        height: 150px;
+    }
+
+    .finalImagem{
+        padding: 20px;
+    }
+}
+
+@media (max-width: 770px){
+    .chamada{
+        margin-inline: 120px;
+    }
+
+    .descricoes p {
+        padding-inline: 100px;
+        padding-top: 20px;
+    }
+}
+
+@media (max-width: 628px){
+    .imagensFinal {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .finalImagem2 {
+        margin-top: -10px;
+    }
+}
+
+@media (max-width: 515px){
+    .descricoes p {
+        padding-inline: 50px;
+    }
+
+    .chamada{
+        margin-inline: 50px;
+    }
+}
+
+@media (max-width: 440px){
+    .imagensFinal{
+        margin-left: 100px;
+    }
+}

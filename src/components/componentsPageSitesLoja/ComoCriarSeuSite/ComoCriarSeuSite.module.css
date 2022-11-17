@@ -1,6 +1,10 @@
+.comoCriamos {
+    margin-top: 100px;
+}
+
 .linhaConteudo {
     display: flex;
-    margin: 0 150px;
+    margin: 0 180px;
 }
 
 .colunaConteudo {
@@ -51,19 +55,76 @@
 
 .imgDestaque img {
     border-radius: 50px 50px 50px 50px;
-    height: auto;
-    max-width: 100%;
     text-align: center;
     vertical-align: middle;
 }
 
-.breveFrase2 p{
-    color: var(--black);
-    font-size: 16px;
+.breveFrase2 {
+    text-align: center;
 }
 
-.breveFrase2{
+.breveFrase2 p {
+    color: var(--black);
+    font-size: 16px;
+    font-weight: 800;
+}
+
+.breveFrase2 {
     padding: 30px;
     margin-top: 30px;
     margin-bottom: 30px;
+}
+
+.botao1 button {
+    margin-top: 30px;
+    font-size: 23px;
+    font-weight: 500;
+    letter-spacing: 0.9px;
+    text-shadow: 0px 0px 10px var(--black);
+    border: var(--white);
+    color: var(--white);
+    background-color: var(--red);
+    border-radius: 20px 20px 20px 20px;
+    box-shadow: 0px 0px 10px 0px var(--white);
+    padding: 12px 27px;
+    cursor: pointer;
+}
+
+@media (max-width: 1298px) {
+    .linhaConteudo {
+        margin: 0 80px;
+    }
+}
+
+@media (max-width: 1070px) {
+    .imgDestaque img {
+        width: 120%;
+    }
+}
+
+@media (max-width: 935px) {
+    .linhaConteudo {
+        margin: 0 30px;
+    }
+}
+
+@media (max-width: 760px) {
+    .imgDestaque {
+        display: none;
+    }
+
+    .colunaConteudo {
+        margin: 0 60px;
+    }
+}
+
+@media (max-width: 575px) {
+    .colunaConteudo {
+        margin: 0 -10px;
+        width: 85%;
+    }
+
+    .boxEtapa {
+        padding: 10px;
+    }
 }
