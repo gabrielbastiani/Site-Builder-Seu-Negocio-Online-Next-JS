@@ -6,7 +6,6 @@ import { Footer } from "../../components/Footer";
 import { MenuTop } from "../../components/MenuTop";
 import { PerguntasAlvo } from "../../components/componentsPageSitesLoja/PerguntasAlvo";
 import { SectionPrincipalSites } from "../../components/componentsPageSitesLoja/SectionPrincipalSites";
-import styles from './ConstruirSiteOuLojasVirtuais.module.css'
 import { DivisorDoisSites } from "../../components/componentsPageSitesLoja/DivisorDoisSites";
 import { FerramentasOferecidasDois } from "../../components/componentsPageSitesLoja/FerramentasOferecidasDois";
 import { DivisorTresSites } from "../../components/componentsPageSitesLoja/DivisorTresSites";
