@@ -1,0 +1,69 @@
+.linhaConteudo {
+    display: flex;
+    margin: 0 150px;
+}
+
+.colunaConteudo {
+    width: 70%;
+}
+
+.etapa {
+    background-color: var(--black);
+    padding: 35px;
+    box-shadow: -10px -12px 30px 5px var(--black);
+    margin: 45px;
+    width: 100%;
+}
+
+.etapa a {
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 900;
+    color: var(--white);
+}
+
+.etapa a:hover {
+    color: var(--orange);
+}
+
+.boxEtapa {
+    margin-top: 25px;
+    padding: 30px;
+    background-color: #efefef;
+    color: #827B6C;
+}
+
+.boxEtapa p {
+    color: var(--black);
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 30px;
+}
+
+.imgDestaque {
+    width: 40%;
+    box-shadow: 57px 0px 36px 18px rgb(0 0 0 / 50%);
+    margin: 0px 40px 0px 40px;
+    border-radius: 0px 45px 45px 0px;
+    text-align: center;
+    padding: 75px;
+}
+
+.imgDestaque img {
+    border-radius: 50px 50px 50px 50px;
+    height: auto;
+    max-width: 100%;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.breveFrase2 p{
+    color: var(--black);
+    font-size: 16px;
+}
+
+.breveFrase2{
+    padding: 30px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}

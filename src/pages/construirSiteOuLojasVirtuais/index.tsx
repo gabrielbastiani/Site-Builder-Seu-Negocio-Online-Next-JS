@@ -11,6 +11,11 @@ import { DivisorDoisSites } from "../../components/componentsPageSitesLoja/Divis
 import { FerramentasOferecidasDois } from "../../components/componentsPageSitesLoja/FerramentasOferecidasDois";
 import { DivisorTresSites } from "../../components/componentsPageSitesLoja/DivisorTresSites";
 import { Depoimento } from "../../components/componentsPageSitesLoja/Depoimento";
+import { DivisorQuartoSites } from "../../components/componentsPageSitesLoja/DivisorQuartoSites";
+import { Qualidade } from "../../components/componentsPageSitesLoja/Qualidade";
+import { DivisorQuintoSites } from "../../components/componentsPageSitesLoja/DivisorQuintoSites";
+import { ComoCriarSeuSite } from "../../components/componentsPageSitesLoja/ComoCriarSeuSite";
+
 
 
 export default function ConstruirSiteOuLojasVirtuais(){
@@ -37,6 +42,14 @@ export default function ConstruirSiteOuLojasVirtuais(){
             <DivisorTresSites />
 
             <Depoimento />
+
+            <DivisorQuartoSites />
+
+            <Qualidade />
+
+            <DivisorQuintoSites />
+
+            <ComoCriarSeuSite />
 
             <Footer />
         </>
