@@ -9,7 +9,7 @@
 }
 
 .linhaContadorExplicacoes {
-    margin-top: 50px;
+    margin-top: 80px;
     display: flex;
     max-width: 95%;
     margin: 0 300px;
@@ -19,13 +19,17 @@
     margin: 0 20px;
 }
 
+.contadorExplicacoes p{
+    font-weight: 900;
+}
+
 .counterUp {
     color: var(--orange);
     font-size: 60px;
     font-weight: 700;
 }
 
-#porcento {
+.porcento {
     color: var(--orange);
     font-size: 60px;
     font-weight: 700;

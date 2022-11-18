@@ -1,0 +1,24 @@
+.ultimaSecao {
+    align-content: center;
+    margin-bottom: 100px;
+}
+
+.imagemFinal {
+    margin-top: 6%;
+    text-align: center;
+}
+
+.imagemFinal img {
+    width: 55vh;
+}
+
+.ultimaSecao p {
+    text-align: center;
+    padding: 60px;
+    color: var(--black);
+    line-height: 25px;
+}
+
+.formulario {
+    text-align: center;
+}
