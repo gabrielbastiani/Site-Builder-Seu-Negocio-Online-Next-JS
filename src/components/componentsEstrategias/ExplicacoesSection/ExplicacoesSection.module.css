@@ -1,0 +1,143 @@
+.secaoExplicacoes {
+    text-align: center;
+    margin-top: 20%;
+}
+
+.secaoExplicacoes>p {
+    color: var(--black);
+    margin-inline: 140px;
+}
+
+.linhaContadorExplicacoes {
+    margin-top: 50px;
+    display: flex;
+    max-width: 95%;
+    margin: 0 300px;
+}
+
+.contadorExplicacoes {
+    margin: 0 20px;
+}
+
+.counterUp {
+    color: var(--orange);
+    font-size: 60px;
+    font-weight: 700;
+}
+
+#porcento {
+    color: var(--orange);
+    font-size: 60px;
+    font-weight: 700;
+}
+
+.linhaContadorExplicacoes p {
+    color: var(--black);
+    font-weight: 500;
+}
+
+.bannerAnuncios {
+    margin-top: 50px;
+    text-align: center !important;
+}
+
+.linhaApresentacao {
+    margin-inline: 150px;
+    display: flex;
+    justify-content: center;
+    margin-top: -15px;
+}
+
+.linhaApresentacaoTexto {
+    display: flex;
+    justify-content: center;
+}
+
+.apresentacao {
+    text-align: center;
+    margin: 0px 15px 0px 50px;
+    padding: 15px 0px 15px 0px;
+    background-color: #FEAA00;
+    border-radius: 65px 65px 65px 65px;
+    width: 40%;
+}
+
+.apresentacao h2 {
+    color: var(--black);
+    font-weight: 700;
+}
+
+.apresentacaoTexto {
+    padding: 25px;
+    max-width: 550px;
+    margin-inline: 35px;
+}
+
+.apresentacaoTexto p {
+    color: var(--black);
+    line-height: 25px;
+}
+
+@media (max-width: 1315px) {
+    .linhaContadorExplicacoes {
+        margin: 0 100px;
+    }
+}
+
+@media (max-width: 1030px) {
+    .secaoExplicacoes {
+        margin-top: 285px;
+    }
+}
+
+@media (max-width: 760px) {
+    .secaoExplicacoes>p {
+        margin-inline: 75px;
+    }
+
+    .bannerAnuncios img {
+        width: 450px;
+        height: auto;
+    }
+
+    .linhaApresentacao {
+        flex-direction: column;
+        width: 130%;
+        margin-left: 50px;
+    }
+
+    .linhaContadorExplicacoes {
+        flex-direction: column;
+    }
+
+    .linhaApresentacaoTexto {
+        flex-direction: column;
+    }
+
+    .apresentacaoTexto {
+        max-width: unset;
+    }
+
+    .apresentacao {
+        margin: unset;
+        width: 65%;
+    }
+}
+
+@media (max-width: 515px) {
+    .secaoExplicacoes {
+        margin-top: 30%;
+    }
+
+    .secaoExplicacoes>p {
+        margin-inline: 65px;
+    }
+
+    .contadorExplicacoes {
+        margin: unset;
+    }
+
+    .bannerAnuncios img {
+        width: 300px;
+    }
+}

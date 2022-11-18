@@ -1,5 +1,6 @@
 import Head from "next/head";
 import React from "react";
+import { ExplicacoesSection } from "../../components/componentsEstrategias/ExplicacoesSection";
 import { SectionPrincipalEstrategia } from "../../components/componentsEstrategias/SectionPrincipalEstrategia";
 import { Footer } from "../../components/Footer";
 import { MenuTop } from "../../components/MenuTop";
@@ -16,6 +17,8 @@ export default function EstrategiasDeMarketingDigital(){
         <MenuTop />
 
         <SectionPrincipalEstrategia />
+
+        <ExplicacoesSection />
 
         <Footer />
         </>
