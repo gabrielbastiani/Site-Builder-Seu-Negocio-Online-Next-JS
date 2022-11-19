@@ -1,0 +1,18 @@
+.secaoBriefing {
+    text-align: center;
+    margin-top: 390px;
+}
+
+.secaoBriefing h3 {
+    color: var(--black);
+    font-size: 23px;
+}
+
+.secaoBriefing p {
+    color: var(--black);
+    padding: 40px;
+}
+
+.briefing {
+    text-align: center;
+}

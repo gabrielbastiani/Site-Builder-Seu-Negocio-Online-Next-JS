@@ -6,7 +6,6 @@ import { Formulario } from "../../components/componentsEmailProfissional/Formula
 import { SectionPrincipalEmail } from "../../components/componentsEmailProfissional/SectionPrincipalEmail";
 import { Footer } from "../../components/Footer";
 import { MenuTop } from "../../components/MenuTop";
-import styles from './EmailProfissional.module.css'
 
 
 export default function EmailProfissional() {

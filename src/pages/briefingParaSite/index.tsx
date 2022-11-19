@@ -1,9 +1,10 @@
 import Head from "next/head";
 import React from "react";
+import CallToAction from "../../components/componentsBriefingParaSite/CallToAction";
+import { SectionBriefing } from "../../components/componentsBriefingParaSite/SectionBriefing";
 import { SectionPrincipalBriefing } from "../../components/componentsBriefingParaSite/SectionPrincipalBriefing";
 import { Footer } from "../../components/Footer";
 import { MenuTop } from "../../components/MenuTop";
-import styles from './BriefingParaSite.module.css';
 
 
 export default function BriefingParaSite(){
@@ -16,6 +17,10 @@ export default function BriefingParaSite(){
             <MenuTop />
 
             <SectionPrincipalBriefing />
+
+            <SectionBriefing />
+
+            <CallToAction />
 
             <Footer />
         </>
