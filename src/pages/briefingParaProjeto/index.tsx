@@ -1,7 +1,7 @@
 import Head from "next/head";
 import React from "react";
 import { SectionPrincipalProjetosBriefing } from "../../components/componentsBriefingParaProjeto/SectionPrincipalProjetosBriefing";
-import { SectionBriefingProjetos } from "../../components/componentsProjetosWeb/SectionBriefingProjetos";
+import { SectionBriefingProjetos } from "../../components/componentsBriefingParaProjeto/SectionBriefingProjetos";
 import { Footer } from "../../components/Footer";
 import { MenuTop } from "../../components/MenuTop";
 
