@@ -1,0 +1,60 @@
+.fraseDivisor1 {
+    font-size: 29px;
+    font-weight: 600;
+    line-height: 45px;
+    margin-bottom: 40px;
+    color: var(--white);
+}
+
+.fraseInferiorDivisor1 {
+    font-size: 19px;
+    font-weight: 400;
+    color: var(--white);
+}
+
+.tituloServico1 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.ondaDivisor1 svg {
+    fill: #efefef;
+    width: calc(100% + 1.3px);
+    height: 55px;
+    transform: translateX(-50%);
+    display: block;
+    position: relative;
+    left: 50%;
+}
+
+.fimOndaDivisor svg {
+    fill: #efefef;
+    transform-origin: center;
+    transform: rotateY(0deg);
+    width: calc(100% + 1.3px);
+    height: 55px;
+    transform: translateX(-50%);
+    display: block;
+    position: relative;
+    left: 50%;
+}
+
+section.divisor1 {
+    background-image: url('/depoimentosBuilderSeuNegocioOnline.png');
+    background-position: top;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: #ff6600a2;
+    background-attachment: fixed;
+    text-align: center;
+}
+
+.fimOndaDivisor {
+    transform: rotate(180deg);
+}
+
+@media (max-width: 690px) {
+    .tituloServico1 {
+        padding: 20px;
+    }
+}

@@ -23,7 +23,13 @@ export function MenuTop() {
             <nav>
                 <ul className={styles.menu}>
                     <li><a href="https://builderseunegocioonline.com.br">Inicio</a></li>
-                    <li><a href="/projetosPersonalizados">Projetos Personalizados</a></li>
+                    <li><a href="#">Projetos Personalizados</a>
+                        <ul className={styles.drpdown}>
+                            <li><a href="/projetosPersonalizados">Projetos Web a App's</a></li>
+                            <li><a href="/briefingParaProjeto">Briefing para projetos</a></li>
+                            <li><a href="#">Pegue nosso cartão<br /> virtual</a></li>
+                        </ul>
+                    </li>
                     <li><a href="#">Seu Website</a>
                         <ul className={styles.drpdown}>
                             <li><a href="/construirSiteOuLojasVirtuais">Construir sites ou<br /> lojas virtuais</a></li>
@@ -57,7 +63,13 @@ export function MenuTop() {
                 <nav>
                     <ul className={styles.menuMobile}>
                         <li><a href="https://builderseunegocioonline.com.br">Inicio</a></li>
-                        <li><a href="/projetosPersonalizados">Projetos Personalizados</a></li>
+                        <li><a href="#">Projetos Personalizados</a>
+                            <ul className={styles.drpdown}>
+                                <li><a href="/projetosPersonalizados">Projetos Web a App's</a></li>
+                                <li><a href="/briefingParaProjeto">Briefing para projetos</a></li>
+                                <li><a href="#">Pegue nosso cartão<br /> virtual</a></li>
+                            </ul>
+                        </li>
                         <li><a href="#">Seu Website</a>
                             <ul className={styles.drpdownMobile}>
                                 <li><a href="/construirSiteOuLojasVirtuais">Construir sites ou<br /> lojas virtuais</a></li>

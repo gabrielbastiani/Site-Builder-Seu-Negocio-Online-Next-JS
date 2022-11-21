@@ -1,0 +1,177 @@
+.servicoInvertida1{
+    margin-top: 15px;
+}
+
+.conteudoInvertida1 {
+    padding: 30px;
+    width: 60%;
+}
+
+.linhaServicoInvertida1 {
+    padding: 80px;
+    display: grid;
+    grid-template-columns: 750px 600px;
+    justify-content: center;
+}
+
+.box2ImagemInvertida1 {
+    box-shadow: 37px -3px 30px 2px rgb(0 0 0 / 50%);
+    border-radius: 45px 45px 45px 45px;
+    margin: 25px;
+}
+
+.linhaFerramentas{
+    display: grid;
+    grid-template-columns: 250px 250px;
+}
+
+.ferramenta{
+    margin-top: 22px;
+}
+
+.ferramenta img {
+    float: left;
+    width: 83px;
+}
+
+.ferramenta h3 {
+    text-align: left;
+    padding-left: 100px;
+    color: var(--black);
+    font-size: 24px;
+    padding-bottom: 10px;
+}
+
+.ferramenta p {
+    color: var(--black);
+    font-size: 15px;
+    text-align: start;
+    padding-left: 100px;
+}
+
+.imagemInvertida1 {
+    background-color: transparent;
+    border: transparent;
+    text-align: center;
+    padding: 40px;
+}
+
+.imagemInvertida1 img {
+    vertical-align: middle;
+    margin: 350px 0;
+}
+
+.box1ConteudoInvertida1 {
+    box-shadow: -57px 0px 36px 18px rgb(0 0 0 / 50%);
+    border-radius: 45px 0px 0px 45px;
+}
+
+.conteudoInvertida1 {
+    background-color: transparent;
+    border: transparent;
+    text-align: center;
+    margin: 60px;
+}
+
+.texto{
+    color: var(--red);
+    font-weight: 500;
+    margin: 50px 0 0 200px;
+}
+
+.breveFrase {
+    text-align: center;
+}
+
+.breveFrase p {
+    color: var(--black);
+    font-weight: 600;
+    letter-spacing: 1.5;
+    margin-top: 35px;
+    font-size: 18px;
+}
+
+.botao1 button {
+    font-size: 23px;
+    font-weight: 500;
+    letter-spacing: 0.9px;
+    text-shadow: 0px 0px 10px var(--black);
+    border: var(--white);
+    color: var(--white);
+    background-color: var(--red);
+    border-radius: 20px 20px 20px 20px;
+    box-shadow: 0px 0px 10px 0px var(--white);
+    padding: 12px 27px;
+    cursor: pointer;
+}
+
+.botao1 {
+    margin-top: 35px !important;
+}
+
+@media (max-width: 1415px){
+    .linhaServicoInvertida1 {
+        grid-template-columns: 470px 470px;
+    }
+
+    .imagemInvertida1 img{
+        width: 330px;
+    }
+}
+
+@media (max-width: 980px){
+    .linhaServicoInvertida1 {
+        grid-template-columns: 650px;
+    }
+
+    .box2ImagemInvertida1{
+        display: none;
+    }
+}
+
+@media (max-width: 675px){
+    .linhaServicoInvertida1 {
+        grid-template-columns: 500px;
+    }
+}
+
+@media (max-width: 638px){
+    .video1desktop{
+        width: 350px;
+        margin-left: -60px;
+    }
+}
+
+@media (max-width: 577px){
+    .linhaFerramentas{
+        grid-template-columns: 250px;
+        justify-content: center;
+    }
+
+    .breveFrase{
+        margin-top: -70px;
+    }
+
+    .breveFrase p{
+        padding: 15px;
+    }
+
+    .conteudoInvertida1 img {
+        margin-left: -80px;
+    }
+}
+
+@media (max-width: 520px){
+    .linhaServicoInvertida1 {
+        grid-template-columns: 400px;
+    }
+
+    .imagemInvertida1 img{
+        margin-left: -80px;
+    }
+
+    .conteudoInvertida1 img {
+        width: 320px;
+        height: auto;
+    }
+}
