@@ -21,28 +21,28 @@ export function Footer() {
                                     <ul className={styles.drpdown}>
                                         <li><a href="/projetosPersonalizados">Projetos Web a App's</a></li>
                                         <li><a href="/briefingParaProjeto">Briefing para projetos</a></li>
-                                        <li><a href="#">Pegue nosso cartão<br /> virtual</a></li>
+                                        <li><a href="https://servidor.builderseunegocioonline.com.br:8256/down/dbqowgV2aWQ4">Pegue nosso cartão<br /> virtual</a></li>
                                     </ul>
                                 </li>
                                 <li><a href="#">Seu Website</a>
                                     <ul className={styles.drpdownMobile}>
                                         <li><a href="/construirSiteOuLojasVirtuais">Construir sites ou<br /> lojas virtuais</a></li>
                                         <li><a href="/briefingParaSite">Briefing para site</a></li>
-                                        <li><a href="https://terumsite.builderseunegocioonline.com.br">E-book gratuito porque<br /> ter um website</a></li>
-                                        <li><a href="#">Pegue nosso cartão<br /> virtual</a></li>
+                                        <li><a href="https://servidor.builderseunegocioonline.com.br:8256/down/57RFUz45MEne">E-book gratuito porque<br /> ter um website</a></li>
+                                        <li><a href="https://servidor.builderseunegocioonline.com.br:8256/down/dbqowgV2aWQ4">Pegue nosso cartão<br /> virtual</a></li>
                                     </ul>
                                 </li>
                                 <li><a href="#">Estratégias</a>
                                     <ul className={styles.drpdownMobile}>
                                         <li><a href="/estrategiasDeMarketingDigital">Estratégia digital<br /> certa para o seu negócio!</a></li>
-                                        <li><a href="https://anuncios.builderseunegocioonline.com.br">E-book gratuito anúncios<br /> pagos para pequenos negócios</a></li>
-                                        <li><a href="https://trabalharemcasa.builderseunegocioonline.com.br">E-book gratuito para<br /> Marketing de afiliados</a></li>
+                                        <li><a href="https://servidor.builderseunegocioonline.com.br:8256/down/Px4XmD9V2yAs">E-book gratuito anúncios<br /> pagos para pequenos negócios</a></li>
+                                        <li><a href="https://servidor.builderseunegocioonline.com.br:8256/down/LoazbpOYADaQ">E-book gratuito para<br /> Marketing de afiliados</a></li>
                                     </ul>
                                 </li>
                                 <li><a href="#">E-mail Profissional</a>
                                     <ul className={styles.drpdownMobile}>
                                         <li><a href="/emailProfissional">Tenha endereços de<br /> e-mails profissionais</a></li>
-                                        <li><a href="https://seuemail.builderseunegocioonline.com.br">E-book gratuito porque seu negócio<br /> precisa de um e-mail profissional?</a></li>
+                                        <li><a href="https://servidor.builderseunegocioonline.com.br:8256/down/2kp0n40dAaGB">E-book gratuito porque seu negócio<br /> precisa de um e-mail profissional?</a></li>
                                     </ul>
                                 </li>
                                 <li><a href="https://blog.builderseunegocioonline.com.br">Blog</a></li>
@@ -66,7 +66,7 @@ export function Footer() {
                 </div>
                 <div className={styles.contentFooter}>
                     <h2>Nosso Cartão</h2>
-                    <Link href="https://servidor.builderseunegocioonline.com.br:8256/down/FjG23wT2jj96" target="_blank">
+                    <Link href="https://servidor.builderseunegocioonline.com.br:8256/down/dbqowgV2aWQ4" target="_blank">
                         <Image className={styles.cartao} src="/cartaoDeVisitas.png" width={180} height={340} quality={100} alt="cartao de visitas gabriel" />
                     </Link>
                 </div>
