@@ -3,9 +3,14 @@
     margin-top: 20%;
 }
 
+.explicacoes{
+    margin-bottom: 65px;
+}
+
 .secaoExplicacoes>p {
     color: var(--black);
     margin-inline: 140px;
+    line-height: 25px;
 }
 
 .linhaContadorExplicacoes {
@@ -21,6 +26,7 @@
 
 .contadorExplicacoes p{
     font-weight: 900;
+    line-height: 25px;
 }
 
 .counterUp {

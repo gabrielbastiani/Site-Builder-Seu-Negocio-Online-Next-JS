@@ -50,7 +50,7 @@ export function ExplicacoesSection() {
     return (
         <section className={styles.secaoExplicacoes}>
 
-            <p>Sem sombras de dúvidas não é por nada que, a compra de trafego, ou seja, pagar para que uma multidão de
+            <p className={styles.explicacoes}>Sem sombras de dúvidas não é por nada que, a compra de trafego, ou seja, pagar para que uma multidão de
                 pessoas visitem seu Website ou loja virtual é uma maneira muito rápida para alcançar quem procura e tem
                 interesse em seu produto ou serviço.<br />
 
