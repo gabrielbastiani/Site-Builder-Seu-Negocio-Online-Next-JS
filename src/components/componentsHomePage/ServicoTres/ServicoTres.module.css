@@ -44,6 +44,7 @@
 
 .conteudo1 p {
     color: var(--black);
+    line-height: 25px;
 }
 
 @media (max-width: 1260px){
