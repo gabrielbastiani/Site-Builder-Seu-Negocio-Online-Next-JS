@@ -67,7 +67,7 @@ export function Footer() {
                 <div className={styles.contentFooter}>
                     <h2>Nosso Cartão</h2>
                     <Link href="https://servidor.builderseunegocioonline.com.br:8256/down/FjG23wT2jj96" target="_blank">
-                        <Image className={styles.cartao} src="/cartaoDeVisitas.jpg" width={180} height={340} quality={100} alt="cartao de visitas gabriel" />
+                        <Image className={styles.cartao} src="/cartaoDeVisitas.png" width={180} height={340} quality={100} alt="cartao de visitas gabriel" />
                     </Link>
                 </div>
             </section>
