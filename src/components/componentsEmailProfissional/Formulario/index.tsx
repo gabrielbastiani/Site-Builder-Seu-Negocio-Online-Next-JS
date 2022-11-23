@@ -16,9 +16,7 @@ export function Formulario() {
                 e-mail para o<br />seu negócio (Respondemos super rápido não se preocupe!!!).</p>
 
             <div className={styles.formulario}>
-                <iframe width="700" height="810"
-                    src="https://gestaodeprojetos.builderseunegocioonline.com.br/forms/wtl/faaf53a67526e2420630319544cf3260"
-                    frameBorder="0" allowFullScreen></iframe>
+                <iframe width="700" height="1150" src="https://gestaodeprojetos.builderseunegocioonline.com.br/forms/wtl/945b99adb70f0ff740ea177f6d35e332" frameborder="0" sandbox="allow-top-navigation allow-scripts allow-forms allow-same-origin" allowfullscreen></iframe>
             </div>
 
         </section>

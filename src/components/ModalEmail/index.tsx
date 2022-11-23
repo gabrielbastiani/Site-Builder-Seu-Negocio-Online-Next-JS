@@ -40,7 +40,7 @@ export function ModalEmail({ isOpen, onRequestClose }: ModalProps) {
             </button>
 
                 <div className={styles.modal}>
-                    <h1>Formulario do Perfex CRM</h1>
+                <iframe width="700" height="400" src="https://gestaodeprojetos.builderseunegocioonline.com.br/forms/wtl/945b99adb70f0ff740ea177f6d35e332" frameborder="0" sandbox="allow-top-navigation allow-scripts allow-forms allow-same-origin" allowfullscreen></iframe>
                 </div>
 
         </Modal>

@@ -16,3 +16,16 @@
 .briefing {
     text-align: center;
 }
+
+@media (max-width: 768px) {
+    .briefing iframe {
+        width: 550px;
+    }
+}
+
+@media (max-width: 570px) {
+    .briefing iframe {
+        width: 350px;
+        height: 2500px;
+    }
+}
