@@ -40,7 +40,7 @@ export function ModalEmail({ isOpen, onRequestClose }: ModalProps) {
             </button>
 
                 <div className={styles.modal}>
-                <iframe width="700" height="400" src="https://gestaodeprojetos.builderseunegocioonline.com.br/forms/wtl/945b99adb70f0ff740ea177f6d35e332" frameborder="0" sandbox="allow-top-navigation allow-scripts allow-forms allow-same-origin" allowfullscreen></iframe>
+                <iframe width="700" height="400" src="https://gestaodeprojetos.builderseunegocioonline.com.br/forms/wtl/945b99adb70f0ff740ea177f6d35e332" frameBorder="0" sandbox="allow-top-navigation allow-scripts allow-forms allow-same-origin" allowFullScreen></iframe>
                 </div>
 
         </Modal>

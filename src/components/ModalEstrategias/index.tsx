@@ -40,7 +40,7 @@ export function ModalEstrategias({ isOpen, onRequestClose }: ModalProps) {
             </button>
 
             <div className={styles.modal}>
-                <iframe width="700" height="400" src="https://gestaodeprojetos.builderseunegocioonline.com.br/forms/wtl/2963d7527621dc2e72735ff7372c0c29" frameborder="0" sandbox="allow-top-navigation allow-scripts allow-forms allow-same-origin" allowfullscreen></iframe>
+                <iframe width="700" height="400" src="https://gestaodeprojetos.builderseunegocioonline.com.br/forms/wtl/2963d7527621dc2e72735ff7372c0c29" frameBorder="0" sandbox="allow-top-navigation allow-scripts allow-forms allow-same-origin" allowFullScreen></iframe>
             </div>
 
         </Modal>

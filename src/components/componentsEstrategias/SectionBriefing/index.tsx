@@ -13,7 +13,7 @@ export function SectionBriefing() {
 
             <div className={styles.linhaBriefing}>
                 <div className={styles.briefing}>
-                <iframe width="700" height="1400" src="https://gestaodeprojetos.builderseunegocioonline.com.br/forms/wtl/2963d7527621dc2e72735ff7372c0c29" frameborder="0" sandbox="allow-top-navigation allow-scripts allow-forms allow-same-origin" allowfullscreen></iframe>
+                <iframe width="700" height="1400" src="https://gestaodeprojetos.builderseunegocioonline.com.br/forms/wtl/2963d7527621dc2e72735ff7372c0c29" frameBorder="0" sandbox="allow-top-navigation allow-scripts allow-forms allow-same-origin" allowFullScreen></iframe>
                     <p>Assim que informar todas as informações solicitadas acima, estaremos analisando-as, e realizando um
                         orçamento em cima das informações as quais você nos forneceu, Fique ligado na sua caixa de e-mail
                         pois, estaremos entrando em contato por lá, ou também se fornecido, por seu WhatsApp.</p>
