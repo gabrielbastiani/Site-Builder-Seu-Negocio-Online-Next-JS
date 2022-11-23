@@ -2,7 +2,8 @@ import { AppProps } from 'next/app';
 import CookieConsent from "react-cookie-consent";
 import '../../styles/globals.css';
 import { FloatingWhatsApp } from 'react-floating-whatsapp'
-import ChatOnline from '../components/ChatOnline';
+import { ChatOnline } from '../components/ChatOnline';
+
 
 function MyApp({ Component, pageProps }: AppProps) {
 
@@ -10,7 +11,7 @@ function MyApp({ Component, pageProps }: AppProps) {
     <>
       <Component {...pageProps} />
       <CookieConsent
-        location="bottom"
+        location="top"
         buttonText="Aceito"
         declineButtonText="Não aceito"
         cookieName="myAwesomeCookieName2"
