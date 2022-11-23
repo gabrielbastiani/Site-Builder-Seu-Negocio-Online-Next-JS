@@ -1,9 +1,26 @@
 import Image from "next/image";
-import Link from "next/link";
-import React from "react";
+import Modal from 'react-modal';
+import React, { useState } from "react";
 import styles from './ApresentacaoDoServico.module.css'
+import { ModalProjetos } from "../../ModalProjetos";
+
 
 export function ApresentacaoDoServico() {
+
+    const [modalVisible, setModalVisible] = useState(false);
+
+    function handleCloseModal() {
+        setModalVisible(false);
+    }
+
+    function handleOpenModalView() {
+        setModalVisible(true);
+    }
+
+
+    Modal.setAppElement('#__next')
+
+
     return (
         <section className={styles.secaoDepoimentos}>
             <div className={styles.descricaoDepoimentos}>
@@ -14,8 +31,21 @@ export function ApresentacaoDoServico() {
                     <div className={styles.videoDepoimento}>
                         <Image src="/programacaoWeb.png" width={600} height={410} quality={100} alt="programacao web" />
                     </div>
+
+                    <div className={styles.botao1}>
+                        <button onClick={() => handleOpenModalView()}>Quero Fazer Meu Projeto WEB ou Aplicativo de Celular</button>
+                    </div>
                 </div>
+
             </div>
+
+            { modalVisible && (
+                <ModalProjetos
+                    isOpen={modalVisible}
+                    onRequestClose={handleCloseModal}
+                />
+            )}
+
         </section>
     )
 }

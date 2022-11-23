@@ -1,9 +1,21 @@
 import Image from "next/image";
 import React, { useState, useEffect } from "react";
 import styles from './ExplicacoesSection.module.css'
+import { ModalEstrategias } from "../../ModalEstrategias";
+import Modal from 'react-modal';
 
 
 export function ExplicacoesSection() {
+
+    const [modalVisible, setModalVisible] = useState(false);
+
+    function handleCloseModal() {
+        setModalVisible(false);
+    }
+
+    function handleOpenModalView() {
+        setModalVisible(true);
+    }
 
     const [totalTimeMilesunds1, setTotalTimeMilesund1] = useState(0);
     const [totalTimeMilesunds2, setTotalTimeMilesund2] = useState(0);
@@ -14,7 +26,7 @@ export function ExplicacoesSection() {
     const text3 = '73'
 
     useEffect(() => {
-        if(totalTimeMilesunds1 === 71) {
+        if (totalTimeMilesunds1 === 71) {
             text1
             return
         } else {
@@ -25,7 +37,7 @@ export function ExplicacoesSection() {
     }, [totalTimeMilesunds1])
 
     useEffect(() => {
-        if(totalTimeMilesunds2 === 96) {
+        if (totalTimeMilesunds2 === 96) {
             text2
             return
         } else {
@@ -36,7 +48,7 @@ export function ExplicacoesSection() {
     }, [totalTimeMilesunds2])
 
     useEffect(() => {
-        if(totalTimeMilesunds3 === 73) {
+        if (totalTimeMilesunds3 === 73) {
             text3
             return
         } else {
@@ -46,6 +58,8 @@ export function ExplicacoesSection() {
         }
     }, [totalTimeMilesunds3])
 
+
+    Modal.setAppElement('#__next')
 
     return (
         <section className={styles.secaoExplicacoes}>
@@ -109,6 +123,18 @@ export function ExplicacoesSection() {
                         seu website ou loja virtual, e assim, poder gerar mais clientes qualificados.</p>
                 </div>
             </div>
+
+            <div className={styles.botao1}>
+                <button onClick={() => handleOpenModalView()}>Quero Faturar Mais</button>
+            </div>
+
+            { modalVisible && (
+                <ModalEstrategias
+                    isOpen={modalVisible}
+                    onRequestClose={handleCloseModal}
+                />
+            )}
+
         </section>
     )
 }

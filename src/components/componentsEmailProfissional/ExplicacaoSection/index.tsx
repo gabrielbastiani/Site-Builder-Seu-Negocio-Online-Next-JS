@@ -7,7 +7,6 @@ import { ModalEmail } from "../../ModalEmail";
 
 export function ExplicacaoSection() {
 
-    const [modalItem, setModalItem] =useState();
     const [modalVisible, setModalVisible] = useState(false);
 
     function handleCloseModal(){

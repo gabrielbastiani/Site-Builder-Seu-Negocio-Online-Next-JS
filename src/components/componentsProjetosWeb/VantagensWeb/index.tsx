@@ -79,7 +79,7 @@ export function VantagensWeb() {
             <div className={styles.breveFrase}>
                 <p>Clique no botão abaixo e preencha o Briefing para o seu sistema, é gratuito! </p>
                 <div className={styles.botao1}>
-                    <a href="/briefingParaProjeto" target="_blank"><button>Quero Fazer Meu Sistema</button></a>
+                    <a href="/briefingParaProjeto" target="_blank"><button>Quero Fazer Meu Sistema WEB ou Aplicativo de Celular</button></a>
                 </div>
             </div>
         </section>

@@ -5,6 +5,7 @@ import { DivisorUmEstrategias } from "../../components/componentsEstrategias/Div
 import { ExplicacoesSection } from "../../components/componentsEstrategias/ExplicacoesSection";
 import { Facebook } from "../../components/componentsEstrategias/Facebook";
 import { Google } from "../../components/componentsEstrategias/Google";
+import { SectionBriefing } from "../../components/componentsEstrategias/SectionBriefing";
 import { SectionPrincipalEstrategia } from "../../components/componentsEstrategias/SectionPrincipalEstrategia";
 import { Footer } from "../../components/Footer";
 import { MenuTop } from "../../components/MenuTop";
@@ -30,6 +31,8 @@ export default function EstrategiasDeMarketingDigital(){
         <DivisorDoisEstrategias />
 
         <Google />
+
+        <SectionBriefing />
 
         <Footer />
         </>
