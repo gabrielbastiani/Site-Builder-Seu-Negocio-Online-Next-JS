@@ -49,7 +49,7 @@ export function Footer() {
                                 <li><a href="/politicasDePrivacidade">Politicas de Privacidade</a></li>
                                 <li><a href="/contato">Contato</a></li>
                                 <li><a href="/sobre">Sobre</a></li>
-                                <li><a href="https://builderseunegocioonline.com.br/server-sitemap.xml">Site Map</a></li>
+                                <li><a href="https://builderseunegocioonline.com.br/sitemap-0.xml">Site Map</a></li>
                             </ul>
                         </nav>
                     </div>
