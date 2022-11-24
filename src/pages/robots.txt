@@ -1,9 +1,0 @@
-# *
-User-agent: *
-Allow: /
-
-# Host
-Host: https://builderseunegocioonline.com.br
-
-# Sitemaps
-Sitemap: https://builderseunegocioonline.com.br/sitemap.xml
