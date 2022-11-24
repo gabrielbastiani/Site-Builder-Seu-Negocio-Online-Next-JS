@@ -1,5 +1,5 @@
 module.exports = {
-    siteUrl: 'https://builderseunegocioonline.com.br/',
+    siteUrl: 'https://builderseunegocioonline.com.br',
     generateRobotsTxt: true, // opcional
     priority: null,
     changefreq: null,
